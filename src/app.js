@@ -21,7 +21,7 @@ console.log(euroDun)
 // array içerisinde herşey olabilir, string, number, array
 // örnek : https://jsonplaceholder.typicode.com/users 
 
-let konutKredileri = ["Konut kredisi", "Emlak konut kredisi", "Kamu konut kredisi", "Özel konut kredisi"]
+let konutKredileri = ["Konut kredisi", "Emlak konut kredisi", "Kamu konut kredisi", "Özel konut kredisi", "Emekli konut kredisi"]
 
 console.log("<ul>")
 for(let i = 0; i<konutKredileri.length;i++){
