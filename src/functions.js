@@ -13,7 +13,7 @@ let sayHello = () =>{
 sayHello()
 
 let sayHello2 = function () {
-    console.log("Hello worls 2")
+    console.log("Hello world 2")
 }
 
 sayHello2()
