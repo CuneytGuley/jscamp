@@ -6,18 +6,12 @@ export class BaseLogger{
 
 export class ElasticLogger extends BaseLogger{
     log(data){
-        console.log("Logged to Elastic " + data) // burada baselogger ı ezmiş olduk, ezmeyebilirz de
+        console.log("Logged to Elastic " + data) // burada baselogger ı ezmiş olduk, ezmeyebiliriz de
     }
 }
 
 export class MongoLogger extends BaseLogger{
     log(data){
         console.log("Logged to Mongo " + data)
-    }
-}
-
-export class FirebaseLogger extends BaseLogger{
-    log(data){
-        console.log("Logged to FireBase " + data)
     }
 }
